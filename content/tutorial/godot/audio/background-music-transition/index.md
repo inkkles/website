@@ -55,9 +55,9 @@ Attach a script to _BackgroundMusic_ and add the following code to it.
 extends Node
 
 # References to the nodes in our scene
-onready var _anim_player := $AnimationPlayer
-onready var _track_1 := $Track1
-onready var _track_2 := $Track2
+@onready var _anim_player := $AnimationPlayer
+@onready var _track_1 := $Track1
+@onready var _track_2 := $Track2
 
 
 # crossfades to a new audio stream
